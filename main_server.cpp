@@ -1,5 +1,5 @@
-#include "server.h"
-#include "client.h"
+#include "Networking/server.h"
+#include "Networking/client.h"
 
 #include <utility>
 #include <string>

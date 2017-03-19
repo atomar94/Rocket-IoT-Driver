@@ -1,5 +1,5 @@
-#include "server.h"
-#include "client.h"
+#include "Networking/server.h"
+#include "Networking/client.h"
 
 #include <utility>
 #include <string>
@@ -10,6 +10,5 @@ int main()
 {
     Client c;
 
-    c.get("127.0.0.1", 8000, "/identify");
-
+    c.identify("localhost", 8000, "vcb1");
 }
